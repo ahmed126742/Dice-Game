@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+                    DICE GAME
+        </title>
+        <link rel="stylesheet" href="GameCss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="GameJS.js"></script> -->
+</head>
+<BODY>
+    <!-- right side Player  -->
+        <div id="right-side">
+            
+                <div class="player_result">
+                        <div  id="Player1"> PLAYER1 </div>
+                        <div class="counter" id="total-1"> 0 </div>
+                    </div>
+
+                <div class="players">
+                        <div  > Current </div>
+                        <div class="counter" id="current-1"> 0 </div>
+                    </div>
+
+        </div>
+
+        <!-- left sie Player  -->
+        <div id="left-side">
+                <div class="player_result">
+                        <div  id="Player2">  PLAYER2 </div>
+                        <div class="counter" id="total-2"> 0 </div>
+                    </div>
+
+            <div class="players">
+                <div  > Current </div>
+                <div class="counter" id="current-2"> 0 </div>
+            </div>
+        </div>
+
+        <!-- middel Part Button and dice Pictures -->
+    <div id="buttons"> 
+        
+            <!-- Start New Game Button  -->
+            <button type="button" id="btn-1" ><i class="fa fa-plus-circle"></i>
+                NEW GAME
+                    </button>
+                    <div  id="Dice">
+                       
+                            </div>
+
+                    <!-- Roll Dice Button  -->
+            <button type="button" id="btn-2">
+                    <i class="fa fa-random"></i>
+                        ROLL DICE           
+            </button>
+
+            <!-- hold On button to save the score  -->
+            <button type="button" id="btn-3"><i class="fa fa-pause"></i>
+                            HOLD
+                </button>
+
+    </div>
+
+    <script src="GameJS.js"></script>
+    
+</BODY>
+</html>
